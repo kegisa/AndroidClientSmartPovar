@@ -1,7 +1,11 @@
 package com.example.smartpovar.entity;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Category {
+    @SerializedName("categoryId")
     private int id;
+    @SerializedName("categoryName")
     private String categoryName;
 
     public int getId() {
